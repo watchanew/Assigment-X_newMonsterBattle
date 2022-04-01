@@ -6,10 +6,11 @@
 using namespace std;
 #include"MONSTER.h"
 
-MONSTER::MONSTER(char*z,int x, int y){
+MONSTER::MONSTER(string z,int x, int y){
     hp=x;
     potion=y;
-    strcpy(name,z);
+    //strcpy(name,z);
+    name=z;
     next=NULL;
     cout<<"creating "<<z<<endl;
 }

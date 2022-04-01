@@ -1,9 +1,10 @@
+using namespace std;
 class MONSTER{
       int hp,potion;
-      char name[10];
+      string name;
       MONSTER* next;
 public:
-        MONSTER(char*,int,int);
+        MONSTER(string,int,int);
         void show_node();
         void insert(MONSTER*&);
         int attack(MONSTER&);

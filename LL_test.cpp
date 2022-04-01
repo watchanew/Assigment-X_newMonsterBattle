@@ -9,7 +9,6 @@ int main(int argc, char *argv[])
 {  
    LL A; //Linked List =>constructor L.hol=NUL L.size=0
    int i; 
-   string name;
    MONSTER *t; 
   
   for(i=1;i<argc;i+=3) {
